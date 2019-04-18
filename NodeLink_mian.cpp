@@ -1,4 +1,4 @@
-
+#include "NodeLink.h"
 typedef int A;
 int main()
 {
