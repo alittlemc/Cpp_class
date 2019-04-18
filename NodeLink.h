@@ -1,6 +1,6 @@
+#ifndef _ALM_NODELINK_
+#define _ALM_NODELINK_ 1
 #include <iostream>
-using namespace std;
-
 template <class A>
 class list; //前置声明,定义友元时使用了
 
@@ -157,3 +157,4 @@ private:
     const node<A> *p2;
 };
 
+#endif
