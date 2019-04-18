@@ -19,7 +19,10 @@ public:
         data = x;
         next = 0; //尾巴
     }
-
+    ~node()
+    {
+        delete data;
+    }
 private:
     A data;
     node *next;
